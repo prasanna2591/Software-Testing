@@ -1,0 +1,6 @@
+Feature:Booking hotel Rooms
+
+Scenario: selecting the rooms
+Given The list of rooms
+When I  select a room
+Then verify whether the room is selected
